@@ -2,3 +2,5 @@ dagster
 dagster-webserver
 dagster-docker
 dagster-postgres
+boto3
+dagster_aws

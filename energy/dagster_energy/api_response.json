@@ -1,0 +1,42 @@
+{
+    "total": 2994932,
+    "limit": 5,
+    "dataset": "ConsumptionDE35Hour",
+    "records": [
+        {
+            "HourUTC": "2023-06-30T21:00:00",
+            "HourDK": "2023-06-30T23:00:00",
+            "PriceArea": "DK1",
+            "ConsumerType_DE35": "111",
+            "TotalCon": 65920
+        },
+        {
+            "HourUTC": "2023-06-30T21:00:00",
+            "HourDK": "2023-06-30T23:00:00",
+            "PriceArea": "DK1",
+            "ConsumerType_DE35": "112",
+            "TotalCon": 1313
+        },
+        {
+            "HourUTC": "2023-06-30T21:00:00",
+            "HourDK": "2023-06-30T23:00:00",
+            "PriceArea": "DK1",
+            "ConsumerType_DE35": "119",
+            "TotalCon": 21806
+        },
+        {
+            "HourUTC": "2023-06-30T21:00:00",
+            "HourDK": "2023-06-30T23:00:00",
+            "PriceArea": "DK1",
+            "ConsumerType_DE35": "121",
+            "TotalCon": 222108
+        },
+        {
+            "HourUTC": "2023-06-30T21:00:00",
+            "HourDK": "2023-06-30T23:00:00",
+            "PriceArea": "DK1",
+            "ConsumerType_DE35": "122",
+            "TotalCon": 25068
+        }
+    ]
+}
