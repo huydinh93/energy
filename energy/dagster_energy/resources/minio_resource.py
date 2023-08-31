@@ -31,8 +31,12 @@ class MinioResource(ConfigurableResource):
             client.Object(bucket_name, filename).put(Body=data)
         except NoCredentialsError:
             raise Exception("Credentials not available")
-
+        
+    # def read_file(self):
+        
+    
     def _ensure_bucket_exists(self, client, bucket_name):
         """Ensure the specified bucket exists in MinIO. If not, create it."""
-        if not client.Bucket(bucket_name) in client.buckets.all():
+        bucket_exists = any(bucket.name == bucket_name for bucket in client.buckets.all())
+        if not bucket_exists:
             client.create_bucket(Bucket=bucket_name)
