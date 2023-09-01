@@ -43,7 +43,7 @@ def fetch_and_save_api_data(context):
     data_str = json.dumps(result)
 
     # 5. Determine the filename and folder structure for MinIO
-    folder_name = partition_date.strftime('%Y-%m-%d')
+    folder_name = partition_date
     descriptive_filename = f"energy_consumption_{partition_date}.json"
     full_path = f"{folder_name}/{descriptive_filename}"
     saved_files = []

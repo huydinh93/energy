@@ -20,7 +20,7 @@ class MinioResource(ConfigurableResource):
             region_name=self.region_name
         )
 
-    def save_file(self,bucket_name, filename, data):
+    def save_file(self, bucket_name, filename, data):
         """Save data to a file in the specified MinIO bucket."""
         client = self.get_client()
         
